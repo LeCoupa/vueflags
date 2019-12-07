@@ -6,7 +6,10 @@
   img(
     :class=`[
       "gb-flag",
-      "gb-flag--" + size
+      "gb-flag--" + size,
+      {
+        "gb-flag--clickable": $listeners.click
+      }
     ]`
     :src="filePath"
     :style=`{
@@ -40,10 +43,6 @@ export default {
       type: String,
       default: null
     },
-    codeNumeric: {
-      type: String,
-      default: null
-    },
     height: {
       type: String,
       default: null
@@ -56,7 +55,7 @@ export default {
       type: String,
       default: "default",
       validator(x) {
-        return ["nano", "micro", "mini", "small", "default", "medium", "large"].includes(x)
+        return ["nano", "micro", "mini", "small", "default", "medium", "large", "huge"].includes(x)
       }
     },
     width: {
@@ -73,8 +72,6 @@ export default {
         return this.codeAlpha2
       } else if (this.codeAlpha3) {
         return this.codeAlpha3
-      } else if (this.codeNumeric) {
-        return this.codeNumeric
       }
 
       console.error(
@@ -118,7 +115,7 @@ export default {
 
 // VARIABLES
 $c: ".gb-flag";
-$sizes: "nano", "micro", "mini", "small", "default", "medium", "large";
+$sizes: "nano", "micro", "mini", "small", "default", "medium", "large", "huge";
 
 #{$c} {
   display: inline-block;
@@ -132,8 +129,14 @@ $sizes: "nano", "micro", "mini", "small", "default", "medium", "large";
     $i: index($sizes, $size) - 1;
 
     &--#{$size} {
-      height: 14px + ($i * 6);
+      height: 10px + ($i * 5);
     }
+  }
+
+  // --> BOOLEANS <--
+
+  &--clickable {
+    cursor: pointer;
   }
 }
 </style>
