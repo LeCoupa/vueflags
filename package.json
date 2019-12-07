@@ -38,7 +38,6 @@
     "lint:scss": "stylelint '**/*.scss'; stylelint '**/*.vue' --syntax scss; exit 0;"
   },
   "devDependencies": {
-    "@growthbunker/stylesheets": "0.2.1",
     "autoprefixer": "9.6.1",
     "cross-env": "6.0.3",
     "minimist": "1.2.0",

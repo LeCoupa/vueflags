@@ -78,7 +78,7 @@ Once the plugin is installed, you can use the component like this:
 
 ```html
 <template>
-  <gb-flag name="france" size="small" theme="light" />
+  <gb-flag code="fr" size="small" />
 </template>
 ```
 

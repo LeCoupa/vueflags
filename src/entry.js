@@ -20,14 +20,14 @@ function install(Vue, options) {
   // Declare the component
   Vue.component("gb-flag", Flag)
 
-  // Configure the theme to use (dark will always be the default theme)
+  // Create growthbunker namespace
   if (!Vue.prototype.$gb) {
     Vue.prototype.$gb = {}
   }
 
+  // Set global options for the package
   Vue.prototype.$gb.vueflags = {}
   Vue.prototype.$gb.vueflags.iconPath = (options || {}).iconPath || null
-  Vue.prototype.$gb.vueflags.theme = (options || {}).theme || "dark"
 }
 
 // Create module definition for Vue.use()

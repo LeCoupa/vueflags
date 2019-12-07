@@ -11,7 +11,7 @@
         "gb-flag--clickable": $listeners.click
       }
     ]`
-    :src="filePath"
+    :src="path"
     :style=`{
       height: height,
       width: width
@@ -24,12 +24,7 @@
      ************************************************************************* -->
 
 <script>
-// PROJECT: MIXINS
-import ThemeMixin from "../mixins/ThemeMixin.js"
-
 export default {
-  mixins: [ThemeMixin],
-
   props: {
     code: {
       type: String,
@@ -57,7 +52,7 @@ export default {
   },
 
   computed: {
-    filePath() {
+    path() {
       let path = this.$gb.vueflags.iconPath || this.iconPath || ""
 
       // Remove last character if slash
@@ -82,13 +77,6 @@ export default {
      ************************************************************************* -->
 
 <style lang="scss">
-// IMPORTS
-@import "node_modules/@growthbunker/stylesheets/settings/_colors.scss";
-@import "node_modules/@growthbunker/stylesheets/settings/_maps.scss";
-@import "node_modules/@growthbunker/stylesheets/settings/_themes.scss";
-@import "node_modules/@growthbunker/stylesheets/tools/_functions.scss";
-@import "node_modules/@growthbunker/stylesheets/tools/_mixins.scss";
-
 // VARIABLES
 $c: ".gb-flag";
 $sizes: "nano", "micro", "mini", "small", "default", "medium", "large", "huge";
