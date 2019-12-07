@@ -1,10 +1,10 @@
 {
   "private": false,
   "name": "@growthbunker/vueflags",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Growth Bunker <product@growthbunker.com>",
   "license": "MIT",
-  "description": "One easy-to-use flag component for Vue.js with 260+ countries and organizations.",
+  "description": "One easy-to-use flag component for Vue.js with 260+ countries and organisations.",
   "keywords": [
     "vue",
     "components",

@@ -30,9 +30,9 @@ In your `main.js` file:
 
 ```js
 import Vue from "vue"
-import vueflags from "@growthbunker/vueflags"
+import VueFlags from "@growthbunker/vueflags"
 
-Vue.use(vueflags)
+Vue.use(VueFlags)
 ```
 
 ### Nuxt.js
@@ -41,9 +41,9 @@ Create a new plugin in `plugins/vueflags.js`:
 
 ```js
 import Vue from "vue"
-import vueflags from "@growthbunker/vueflags"
+import VueFlags from "@growthbunker/vueflags"
 
-Vue.use(vueflags)
+Vue.use(VueFlags)
 ```
 
 Add this new plugin to `nuxt.config.js`.
@@ -70,7 +70,7 @@ We recommend our users to lock Vue Flags's version when using CDN. Requesting th
 
 <a href="https://github.com/growthbunker/vueflags/tree/master/assets/flags" target="_blank">All the flags are available here</a>. Copy them somewhere in your somewhere in your "public" or "static" folder. You will also have to set the icon path for the component to be able to find them (see package options and component props).
 
-A huge thank you to <a href="https://alexisdoreau.com/freebies_gift_download/" target="_blank">Alexis Doreau</a> for designing them.
+A huge thank you to <a href="https://www.flaticon.com/packs/countrys-flags" target="_blank">the author for designing these flags</a>.
 
 ## Example
 

@@ -3,6 +3,17 @@
      ************************************************************************* -->
 
 <template lang="pug">
+  img(
+    :class=`[
+      "gb-flag",
+      "gb-flag--" + size
+    ]`
+    :src="filePath"
+    :style=`{
+      height: height,
+      width: width
+    }`
+  )
 </template>
 
 <!-- *************************************************************************
@@ -17,21 +28,6 @@ export default {
   mixins: [ThemeMixin],
 
   props: {
-    iconPath: {
-      type: String,
-      default: null
-    },
-    disabled: {
-      type: Boolean,
-      default: false
-    },
-    format: {
-      type: String,
-      default: "rectangular",
-      validator(x) {
-        return ["rectangular", "rounded", "square"].includes(x)
-      }
-    },
     codeAlpha2: {
       type: String,
       default: null
@@ -48,12 +44,24 @@ export default {
       type: String,
       default: null
     },
+    height: {
+      type: String,
+      default: null
+    },
+    iconPath: {
+      type: String,
+      default: null
+    },
     size: {
       type: String,
       default: "default",
       validator(x) {
         return ["nano", "micro", "mini", "small", "default", "medium", "large"].includes(x)
       }
+    },
+    width: {
+      type: String,
+      default: null
     }
   },
 
@@ -109,9 +117,23 @@ export default {
 @import "node_modules/@growthbunker/stylesheets/tools/_mixins.scss";
 
 // VARIABLES
-$c: ".gb-social-button";
+$c: ".gb-flag";
 $sizes: "nano", "micro", "mini", "small", "default", "medium", "large";
 
 #{$c} {
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  user-select: none;
+
+  // --> SIZES <--
+
+  @each $size in $sizes {
+    $i: index($sizes, $size) - 1;
+
+    &--#{$size} {
+      height: 14px + ($i * 6);
+    }
+  }
 }
 </style>

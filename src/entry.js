@@ -3,7 +3,7 @@
  ***************************************************************************/
 
 // BASE COMPONENTS
-import BaseFlag from "./components/BaseFlag.vue"
+import Flag from "./components/Flag.vue"
 
 /**************************************************************************
  * ENVIRONMENT CONFIGURATIONS
@@ -18,7 +18,7 @@ function install(Vue, options) {
   }
 
   // Declare the component
-  Vue.component("gb-flag", BaseFlag)
+  Vue.component("gb-flag", Flag)
 
   // Configure the theme to use (dark will always be the default theme)
   if (!Vue.prototype.$gb) {
