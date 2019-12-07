@@ -31,17 +31,9 @@ export default {
   mixins: [ThemeMixin],
 
   props: {
-    codeAlpha2: {
+    code: {
       type: String,
-      default: null
-    },
-    codeAlpha3: {
-      type: String,
-      default: null
-    },
-    codeName: {
-      type: String,
-      default: null
+      required: true
     },
     height: {
       type: String,
@@ -65,29 +57,13 @@ export default {
   },
 
   computed: {
-    fileName() {
-      if (this.codeName) {
-        return this.codeName
-      } else if (this.codeAlpha2) {
-        return this.codeAlpha2
-      } else if (this.codeAlpha3) {
-        return this.codeAlpha3
-      }
-
-      console.error(
-        "One of the following prop is missing: code-name, code-alpha2, code-alpha3 or code-numeric."
-      )
-
-      return ""
-    },
-
     filePath() {
       let path = this.$gb.vueflags.iconPath || this.iconPath || ""
 
       // Remove last character if slash
       path = path.replace(/\/$/, "")
 
-      return `${path}/${this.fileName}.svg`
+      return `${path}/${this.code}.svg`
     }
   },
 
