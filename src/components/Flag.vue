@@ -58,7 +58,7 @@ export default {
       // Remove last character if slash
       path = path.replace(/\/$/, "")
 
-      return `${path}/${this.code}.svg`
+      return `${path}/${this.code.toLowerCase()}.svg`
     }
   },
 
