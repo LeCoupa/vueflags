@@ -24,6 +24,9 @@
      ************************************************************************* -->
 
 <script>
+// PROJECT: DATA
+import countries from "../data/countries.js"
+
 export default {
   props: {
     code: {
@@ -53,12 +56,18 @@ export default {
 
   computed: {
     path() {
+      let code = (this.code || "").toLowerCase()
       let path = this.$gb.vueflags.iconPath || this.iconPath || ""
 
       // Remove last character if slash
       path = path.replace(/\/$/, "")
 
-      return `${path}/${this.code.toLowerCase()}.svg`
+      // Use fallback flag
+      if (!countries.includes(code)) {
+        code = "unknown"
+      }
+
+      return `${path}/${code}.svg`
     }
   },
 
