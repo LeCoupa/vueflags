@@ -63,7 +63,11 @@ export default {
       path = path.replace(/\/$/, "")
 
       // Use fallback flag
-      if (!countries.includes(code)) {
+      const hasCountry = countries.some(country => {
+        return country.code.toLowerCase() === code.toLowerCase()
+      })
+
+      if (!hasCountry) {
         code = "unknown"
       }
 

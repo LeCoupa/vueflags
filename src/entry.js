@@ -2,7 +2,10 @@
  * IMPORTS
  ***************************************************************************/
 
-// BASE COMPONENTS
+// DATA
+import countries from "./data/countries.js"
+
+// COMPONENTS
 import Flag from "./components/Flag.vue"
 
 /**************************************************************************
@@ -51,3 +54,6 @@ if (GlobalVue) {
 
 // Default export is library as a whole, registered via Vue.use()
 export default plugin
+
+// Export data files
+export { countries }
