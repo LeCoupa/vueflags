@@ -25,7 +25,7 @@
 
 <script>
 // PROJECT: DATA
-import countries from "../data/countries.js"
+import flags from "../data/flags.js"
 
 export default {
   props: {
@@ -63,11 +63,7 @@ export default {
       path = path.replace(/\/$/, "")
 
       // Use fallback flag
-      const hasCountry = countries.some(country => {
-        return country.code.toLowerCase() === code.toLowerCase()
-      })
-
-      if (!hasCountry) {
+      if (!flags.includes(code)) {
         code = "unknown"
       }
 
