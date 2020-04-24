@@ -1,11 +1,29 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1350" height="900" viewBox="0 0 225 150"
   xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-  <rect y="85.337" style="fill:#F0F0F0;" width="512" height="341.326"/>
-  <rect y="85.337" style="fill:#FF9811;" width="512" height="113.775"/>
-  <rect y="312.888" style="fill:#6DA544;" width="512" height="113.775"/>
-  <circle style="fill:#0052B4;" cx="256" cy="256" r="43.896"/>
-  <circle style="fill:#F0F0F0;" cx="256" cy="256" r="27.434"/>
-  <polygon style="fill:#0052B4;" points="256,222.146 264.464,241.341 285.319,239.073 272.927,256 285.319,272.927 264.464,270.659   256,289.854 247.536,270.659 226.681,272.927 239.073,256 226.681,239.073 247.536,241.341 "/>
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <rect width="225" height="150" fill="#f93"/>
+  <rect y="50" width="225" height="100" fill="#fff"/>
+  <rect y="100" width="225" height="50" fill="#128807"/>
+  <g transform="translate(112.5,75)">
+    <circle r="20" fill="#008"/>
+    <circle r="17.5" fill="#fff"/>
+    <circle r="3.5" fill="#008"/>
+    <g id="e">
+      <g id="f">
+        <g id="g">
+          <g id="h">
+            <circle transform="rotate(7.5) translate(17.5)" r=".875" fill="#008"/>
+            <path d="m0 17.5 0.6-10.5-0.6-5-0.6 5 0.6 10.5z" fill="#008"/>
+          </g>
+          <use transform="rotate(15)" xlink:href="#h"/>
+        </g>
+        <use transform="rotate(30)" xlink:href="#g"/>
+      </g>
+      <use transform="rotate(60)" xlink:href="#f"/>
+    </g>
+    <use transform="rotate(120)" xlink:href="#e"/>
+    <use transform="rotate(240)" xlink:href="#e"/>
+  </g>
 </svg>
+
