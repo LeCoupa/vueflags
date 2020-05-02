@@ -55,5 +55,8 @@ if (GlobalVue) {
 // Default export is library as a whole, registered via Vue.use()
 export default plugin
 
+const countryCodes = countries.map(country => country.code)
+const countryNames = countries.map(country => country.names)
+
 // Export data files
-export { countries }
+export { countries, countryCodes, countryNames }
