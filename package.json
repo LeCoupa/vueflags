@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@growthbunker/vueflags",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "author": "Growth Bunker <product@growthbunker.com>",
   "license": "MIT",
   "description": "One easy-to-use flag component for Vue.js with all ISO 3166-1 countries.",
