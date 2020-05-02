@@ -4,7 +4,7 @@
   "version": "0.0.9",
   "author": "Growth Bunker <product@growthbunker.com>",
   "license": "MIT",
-  "description": "One easy-to-use flag component for Vue.js with 230+ countries.",
+  "description": "One easy-to-use flag component for Vue.js with all ISO 3166-1 countries.",
   "keywords": [
     "vue",
     "components",
