@@ -79,10 +79,7 @@ export default [
   { code: "FO", name: "Faroe Islands" },
   { code: "FR", name: "France" },
   { code: "GA", name: "Gabon" },
-  {
-    code: "GB",
-    name: "United Kingdom of Great Britain and Northern Ireland"
-  },
+  { code: "GB", name: "Great Britain" },
   { code: "GD", name: "Grenada" },
   { code: "GE", name: "Georgia" },
   { code: "GF", name: "French Guiana" },
