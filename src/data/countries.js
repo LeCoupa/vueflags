@@ -42,7 +42,7 @@ export default [
   { code: "bz", name: "Belize" },
   { code: "ca", name: "Canada" },
   { code: "cc", name: "Cocos (Keeling) Islands" },
-  { code: "cd", name: "Congo" },
+  { code: "cd", name: "Democratic Republic of the Congo" },
   { code: "cf", name: "Central African Republic" },
   { code: "cg", name: "Congo" },
   { code: "ch", name: "Switzerland" },
