@@ -235,7 +235,7 @@ export default [
   { code: "ua", name: "Ukraine" },
   { code: "ug", name: "Uganda" },
   { code: "um", name: "United States Minor Outlying Islands" },
-  { code: "us", name: "United States" },
+  { code: "us", name: "United States of America" },
   { code: "uy", name: "Uruguay" },
   { code: "uz", name: "Uzbekistan" },
   { code: "va", name: "Holy See" },
