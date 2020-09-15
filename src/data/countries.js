@@ -54,7 +54,7 @@ export default [
   {
     code: "aq",
     name: "Antarctica",
-    continent: "Antartica",
+    continent: "Antarctica",
     continent_code: "an"
   },
   {
@@ -204,7 +204,7 @@ export default [
   {
     code: "bv",
     name: "Bouvet Island",
-    continent: "Antartica",
+    continent: "Antarctica",
     continent_code: "an"
   },
   {
@@ -540,7 +540,7 @@ export default [
   {
     code: "gs",
     name: "South Georgia and the South Sandwich Islands",
-    continent: "Antartica",
+    continent: "Antarctica",
     continent_code: "an"
   },
   {
@@ -576,7 +576,7 @@ export default [
   {
     code: "hm",
     name: "Heard Island and McDonald Islands",
-    continent: "Antartica",
+    continent: "Antarctica",
     continent_code: "an"
   },
   {
@@ -1296,7 +1296,7 @@ export default [
   {
     code: "tf",
     name: "French Southern Territories",
-    continent: "Antartica",
+    continent: "Antarctica",
     continent_code: "an"
   },
   {
