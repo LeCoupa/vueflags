@@ -5,31 +5,31 @@
 
 export default [
   {
-    continent: "Africa",
-    continent_code: "af"
+    code: "af",
+    name: "Africa"
   },
   {
-    continent: "Antarctica",
-    continent_code: "an"
+    code: "an",
+    name: "Antarctica"
   },
   {
-    continent: "Asia",
-    continent_code: "as"
+    code: "as",
+    name: "Asia"
   },
   {
-    continent: "Europe",
-    continent_code: "eu"
+    code: "eu",
+    name: "Europe"
   },
   {
-    continent: "North America",
-    continent_code: "na"
+    code: "na",
+    name: "North America"
   },
   {
-    continent: "Oceania",
-    continent_code: "oc"
+    code: "oc",
+    name: "Oceania"
   },
   {
-    continent: "South America",
-    continent_code: "sa"
+    code: "sa",
+    name: "South America"
   }
 ]
