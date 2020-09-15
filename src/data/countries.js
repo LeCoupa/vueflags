@@ -1,5 +1,6 @@
 /**************************************************************************
  * DATA > PLACES
+ * BASED ON https://wiki.openstreetmap.org/wiki/Nominatim/Country_Codes
  ***************************************************************************/
 
 export default [
@@ -89,7 +90,7 @@ export default [
   },
   {
     code: "ax",
-    name: "Åland Islands",
+    name: "Aland Islands",
     continent: "Europe",
     continent_code: "eu"
   },
@@ -155,7 +156,7 @@ export default [
   },
   {
     code: "bl",
-    name: "Saint Barthélemy",
+    name: "Saint-Barthélemy",
     continent: "North America",
     continent_code: "na"
   },
@@ -179,7 +180,7 @@ export default [
   },
   {
     code: "bq",
-    name: "Bonaire, Sint Eustatius and Saba",
+    name: "Caribbean Netherlands",
     continent: "South America",
     continent_code: "sa"
   },
@@ -245,13 +246,13 @@ export default [
   },
   {
     code: "cf",
-    name: "Central African Republic",
+    name: "Centrafrican Republic",
     continent: "Africa",
     continent_code: "af"
   },
   {
     code: "cg",
-    name: "Congo",
+    name: "Republic of the Congo",
     continent: "Africa",
     continent_code: "af"
   },
@@ -335,7 +336,7 @@ export default [
   },
   {
     code: "cz",
-    name: "Czechia",
+    name: "Czech Republic",
     continent: "Europe",
     continent_code: "eu"
   },
@@ -431,7 +432,7 @@ export default [
   },
   {
     code: "fk",
-    name: "Falkland Islands (Malvinas)",
+    name: "Falkland Islands",
     continent: "South America",
     continent_code: "sa"
   },
@@ -509,7 +510,7 @@ export default [
   },
   {
     code: "gm",
-    name: "Gambia",
+    name: "The Gambia",
     continent: "Africa",
     continent_code: "af"
   },
@@ -557,7 +558,7 @@ export default [
   },
   {
     code: "gw",
-    name: "Guinea-Bissau",
+    name: "Guinea Bissau",
     continent: "Africa",
     continent_code: "af"
   },
@@ -845,7 +846,7 @@ export default [
   },
   {
     code: "mf",
-    name: "Saint Martin (French)",
+    name: "Saint Martin (French part)",
     continent: "North America",
     continent_code: "na"
   },
@@ -887,7 +888,7 @@ export default [
   },
   {
     code: "mo",
-    name: "Macao",
+    name: "Macao (SAR of China)",
     continent: "Asia",
     continent_code: "as"
   },
@@ -995,7 +996,7 @@ export default [
   },
   {
     code: "nl",
-    name: "Netherlands",
+    name: "The Netherlands",
     continent: "Europe",
     continent_code: "eu"
   },
@@ -1097,7 +1098,7 @@ export default [
   },
   {
     code: "ps",
-    name: "Palestine",
+    name: "Palestinian Territory",
     continent: "Asia",
     continent_code: "as"
   },
@@ -1193,7 +1194,7 @@ export default [
   },
   {
     code: "sh",
-    name: "Saint Helena, Ascension and Tristan da Cunha",
+    name: "Saint Helena",
     continent: "Africa",
     continent_code: "af"
   },
@@ -1229,7 +1230,7 @@ export default [
   },
   {
     code: "sn",
-    name: "Senegal",
+    name: "Sénégal",
     continent: "Africa",
     continent_code: "af"
   },
@@ -1253,7 +1254,7 @@ export default [
   },
   {
     code: "st",
-    name: "Sao Tome and Principe",
+    name: "São Tomé and Príncipe",
     continent: "Africa",
     continent_code: "af"
   },
@@ -1265,19 +1266,19 @@ export default [
   },
   {
     code: "sx",
-    name: "Sint Maarten (Dutch)",
+    name: "Saint Martin (Dutch part)",
     continent: "North America",
     continent_code: "na"
   },
   {
     code: "sy",
-    name: "Syrian Arab Republic",
+    name: "Syria",
     continent: "Asia",
     continent_code: "as"
   },
   {
     code: "sz",
-    name: "Eswatini",
+    name: "Swaziland",
     continent: "Africa",
     continent_code: "af"
   },
@@ -1295,7 +1296,7 @@ export default [
   },
   {
     code: "tf",
-    name: "French Southern Territories",
+    name: "French Southern and Antarctic Lands",
     continent: "Antarctica",
     continent_code: "an"
   },
@@ -1415,7 +1416,7 @@ export default [
   },
   {
     code: "va",
-    name: "Holy See",
+    name: "City of the Vatican",
     continent: "Europe",
     continent_code: "eu"
   },
@@ -1433,19 +1434,19 @@ export default [
   },
   {
     code: "vg",
-    name: "Virgin Islands (British)",
+    name: "British Virgin Islands",
     continent: "North America",
     continent_code: "na"
   },
   {
     code: "vi",
-    name: "Virgin Islands (U.S.)",
+    name: "United States Virgin Islands",
     continent: "North America",
     continent_code: "na"
   },
   {
     code: "vn",
-    name: "Viet Nam",
+    name: "Vietnam",
     continent: "Asia",
     continent_code: "as"
   },
