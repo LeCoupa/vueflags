@@ -3,6 +3,7 @@
  ***************************************************************************/
 
 // DATA
+import continents from "./data/continents.js"
 import countries from "./data/countries.js"
 
 // COMPONENTS
@@ -59,4 +60,4 @@ const countryCodes = countries.map(country => country.code)
 const countryNames = countries.map(country => country.names)
 
 // Export data files
-export { countries, countryCodes, countryNames }
+export { continents, countries, countryCodes, countryNames }

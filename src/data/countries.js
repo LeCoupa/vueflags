@@ -1,5 +1,5 @@
 /**************************************************************************
- * DATA > PLACES
+ * DATA > COUNTRIES
  * BASED ON https://wiki.openstreetmap.org/wiki/Nominatim/Country_Codes
  ***************************************************************************/
 
