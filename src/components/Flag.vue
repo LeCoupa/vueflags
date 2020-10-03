@@ -16,6 +16,7 @@
       height: height,
       width: width
     }`
+    :alt="code"
   )
 </template>
 
