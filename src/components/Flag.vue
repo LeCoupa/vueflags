@@ -65,12 +65,12 @@ export default {
 
       // setting flasg to fallback flag in case none is found
       let flagSvgName = "unknown"
-      countries.forEach(element => {
-        if (element.code_a2 === code || element.code_a3 === code) {
-          flagSvgName = element.code_a2
+      for (let i = 0; i < countries.length; i++) {
+        if (countries[i].code_a2 === code || countries[i].code_a3 === code) {
+          flagSvgName = countries[i].code_a2
           break
         }
-      });
+      }
 
       return `${path}/${flagSvgName}.svg`
     }
