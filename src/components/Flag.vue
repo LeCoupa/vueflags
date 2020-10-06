@@ -4,6 +4,7 @@
 
 <template lang="pug">
   img(
+    :alt="code"
     :class=`[
       "gb-flag",
       "gb-flag--" + size,
