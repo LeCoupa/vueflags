@@ -45,7 +45,7 @@ export default {
     size: {
       type: String,
       default: "default",
-      validator(x) {
+      validator (x) {
         return ["nano", "micro", "mini", "small", "default", "medium", "large", "huge"].includes(x)
       }
     },
@@ -56,28 +56,30 @@ export default {
   },
 
   computed: {
-    path() {
+    path () {
       let code = (this.code || "").toLowerCase()
       let path = this.$gb.vueflags.iconPath || this.iconPath || ""
 
       // Remove last character if slash
       path = path.replace(/\/$/, "")
 
-      // Use fallback flag
-      const countryCodes = countries.map(country => country.code)
+      // setting flasg to fallback flag in case none is found
+      let flagSvgName = "unknown"
+      countries.forEach(element => {
+        if (element.code_a2 === code || element.code_a3 === code) {
+          flagSvgName = element.code_a2
+          break
+        }
+      });
 
-      if (!countryCodes.includes(code)) {
-        code = "unknown"
-      }
-
-      return `${path}/${code}.svg`
+      return `${path}/${flagSvgName}.svg`
     }
   },
 
   methods: {
     // --> EVENT LISTENERS <--
 
-    onClick(event) {
+    onClick (event) {
       this.$emit("click", event)
     }
   }
