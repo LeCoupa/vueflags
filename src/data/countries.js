@@ -246,7 +246,7 @@ export default [
   },
   {
     code: "cf",
-    name: "Centrafrican Republic",
+    name: "Central African Republic",
     continent: "Africa",
     continent_code: "af"
   },
@@ -462,7 +462,7 @@ export default [
   },
   {
     code: "gb",
-    name: "United Kindgom",
+    name: "United Kingdom",
     continent: "Europe",
     continent_code: "eu"
   },
