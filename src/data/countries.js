@@ -888,7 +888,7 @@ export default [
   },
   {
     code: "mo",
-    name: "Macao (SAR of China)",
+    name: "Macao",
     continent: "Asia",
     continent_code: "as"
   },
@@ -1098,7 +1098,7 @@ export default [
   },
   {
     code: "ps",
-    name: "Palestinian Territory",
+    name: "Palestine",
     continent: "Asia",
     continent_code: "as"
   },
