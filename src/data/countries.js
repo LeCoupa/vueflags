@@ -1398,7 +1398,7 @@ export default [
   },
   {
     code: "us",
-    name: "United States of America",
+    name: "United States",
     continent: "North America",
     continent_code: "na"
   },
