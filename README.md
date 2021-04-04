@@ -78,7 +78,7 @@ Once the plugin is installed, you can use the component like this:
 
 ```html
 <template>
-  <gb-flag code="fr" size="small" />
+  <vue-flag code="fr" size="small" />
 </template>
 ```
 
