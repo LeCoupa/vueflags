@@ -17,7 +17,7 @@ You can browse the documentation for Vue Flags [on the website](https://www.grow
 
 ## Installation
 
-```
+```bash
 npm install @growthbunker/vueflags
 
 # Or if you prefer using yarn
@@ -68,7 +68,7 @@ We recommend our users to lock Vue Flags's version when using CDN. Requesting th
 
 ## Icons
 
-<a href="https://github.com/growthbunker/vueflags/tree/master/assets/flags" target="_blank">All the flags are available here</a>. Copy them somewhere in your somewhere in your "public" or "static" folder. You will also have to set the icon path for the component to be able to find them (see package options and component props).
+<a href="https://github.com/growthbunker/vueflags/tree/master/flags" target="_blank">All the flags are available here</a>. Copy them somewhere in your somewhere in your "public" or "static" folder. You will also have to set the icon path for the component to be able to find them (see package options and component props).
 
 A huge thank you to <a href="https://www.flaticon.com/packs/countrys-flags" target="_blank">the author for designing these flags</a>.
 
