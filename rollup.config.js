@@ -58,7 +58,7 @@ const outputConfigs = {
 
 const createConfig = (format, output, plugins = []) => {
   if (!output) {
-    console.log(require("chalk").yellow(`invalid format: "${format}"`))
+    console.log(`invalid format: "${format}"`)
     process.exit(1)
   }
 
