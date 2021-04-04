@@ -1,0 +1,46 @@
+.vueflag {
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  user-select: none;
+}
+
+/* --> SIZES <-- */
+
+.vueflag--nano {
+  height: 10px;
+}
+
+.vueflag--micro {
+  height: 15px;
+}
+
+.vueflag--mini {
+  height: 20px;
+}
+
+.vueflag--small {
+  height: 25px;
+}
+
+.vueflag--default {
+  height: 30px;
+}
+
+.vueflag--medium {
+  height: 35px;
+}
+
+.vueflag--large {
+  height: 40px;
+}
+
+.vueflag--huge {
+  height: 45px;
+}
+
+/* --> BOOLEANS <-- */
+
+.vueflag--clickable {
+  cursor: pointer;
+}
